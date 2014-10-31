@@ -1,6 +1,6 @@
 # loopback-webpack-plugin
 
-[![Build Status](https://travis-ci.org/SimonDegraeve/loopback-webpack-plugin.svg?branch=master)](https://travis-ci.org/SimonDegraeve/loopback-webpack-plugin) [![Coverage Status](https://img.shields.io/coveralls/SimonDegraeve/loopback-webpack-plugin.svg)](https://coveralls.io/r/SimonDegraeve/loopback-webpack-plugin) [![Dependencies Status](https://david-dm.org/SimonDegraeve/loopback-webpack-plugin.png)](https://david-dm.org/SimonDegraeve/loopback-webpack-plugin)
+[![Build Status](https://travis-ci.org/SimonDegraeve/loopback-webpack-plugin.svg?branch=master)](https://travis-ci.org/SimonDegraeve/loopback-webpack-plugin) [![Coverage Status](https://img.shields.io/coveralls/SimonDegraeve/loopback-webpack-plugin.svg)](https://coveralls.io/r/SimonDegraeve/loopback-webpack-plugin) [![Dependencies Status](https://david-dm.org/SimonDegraeve/loopback-webpack-plugin.png)](https://david-dm.org/SimonDegraeve/loopback-webpack-plugin) [![npm version](https://badge.fury.io/js/loopback-webpack-plugin.svg)](http://badge.fury.io/js/loopback-webpack-plugin)
 
 > Compile [Loopback](https://github.com/strongloop/loopback) project with [Webpack](https://github.com/webpack/webpack). This is useful for [isomorphic](http://strongloop.com/strongblog/full-stack-javascript-isomorphic-loopback-browse/) application.
 
