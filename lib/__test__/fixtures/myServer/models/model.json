@@ -1,0 +1,14 @@
+{
+  "name": "Model",
+  "base": "PersistedModel",
+  "trackChanges": true,
+  "properties": {
+    "id": {
+      "id": true,
+      "type": "string"
+    },
+    "created": {
+      "type": "number"
+    }
+  }
+}

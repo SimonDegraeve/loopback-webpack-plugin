@@ -1,0 +1,11 @@
+{
+  "_meta": {
+    "sources": ["../myServer/models", "./models"]
+  },
+  "Model": {
+    "dataSource": "remote"
+  },
+  "LocalModel": {
+    "dataSource": "local"
+  }
+}

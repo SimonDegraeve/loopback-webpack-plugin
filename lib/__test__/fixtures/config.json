@@ -1,0 +1,51 @@
+{
+  "config": {},
+  "dataSources": {
+    "remote": {
+      "connector": "remote"
+    },
+    "local": {
+      "connector": "memory",
+      "localStorage": "local-db"
+    }
+  },
+  "models": [
+    {
+      "name": "Model",
+      "config": {
+        "dataSource": "remote"
+      },
+      "definition": {
+        "name": "Model",
+        "base": "PersistedModel",
+        "trackChanges": true,
+        "properties": {
+          "id": {
+            "id": true,
+            "type": "string"
+          },
+          "created": {
+            "type": "number"
+          }
+        }
+      },
+      "sourceFile": "./lib/__test__/fixtures/myServer/models/model.js"
+    },
+    {
+      "name": "LocalModel",
+      "config": {
+        "dataSource": "local"
+      },
+      "definition": {
+        "name": "LocalModel",
+        "base": "Model"
+      },
+      "sourceFile": "./lib/__test__/fixtures/myApp/models/model.js"
+    }
+  ],
+  "files": {
+    "boot": [
+      "./lib/__test__/fixtures/myApp/boot/bootScript.js"
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "name": "loopback-webpack-plugin",
+  "description": "Compile Loopback project with Webpack. This is useful for isomorphic application.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/SimonDegraeve/loopback-webpack-plugin",
+  "author": {
+    "name": "Simon Degraeve",
+    "email": "simon.degraeve@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/SimonDegraeve/loopback-webpack-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SimonDegraeve/loopback-webpack-plugin/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/SimonDegraeve/loopback-webpack-plugin/blob/master/LICENSE"
+    }
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">= 0.10.28",
+    "npm": ">=1.4.9"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "dependencies": {
+    "temp": "^0.8.1"
+  },
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "glob": "^4.0.6",
+    "gulp": "^3.8.9",
+    "gulp-complexity": "^0.3.0",
+    "gulp-coveralls": "^0.1.3",
+    "gulp-istanbul": "^0.3.1",
+    "gulp-jscs": "git://github.com/SimonDegraeve/gulp-jscs",
+    "gulp-jshint": "^1.8.6",
+    "gulp-mocha": "^1.1.1",
+    "gulp-plumber": "^0.6.6",
+    "gulp-watch": "^1.1.0",
+    "jscs-stylish": "git://github.com/SimonDegraeve/jscs-stylish",
+    "jshint-stylish": "^1.0.0",
+    "json-loader": "^0.5.1",
+    "loopback": "^2.7.0",
+    "loopback-boot": "^2.3.0",
+    "loopback-datasource-juggler": "^2.10.2",
+    "npm-check-updates": "^1.2.0",
+    "rewire": "^2.1.2",
+    "sinon": "^1.11.1",
+    "sinon-chai": "^2.6.0",
+    "webpack": "^1.4.9"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "loopback",
+    "loopback-boot
+  ]
+}
