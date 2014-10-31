@@ -62,7 +62,7 @@ gulp.task('test', ['lint'], function(done) {
     }))
     .on('finish', function() {
       gulp.src(paths['src.tests.loader'], {read: false})
-        .pipe(plumber())
+        // .pipe(plumber())
         .pipe(mocha())
         .pipe(istanbul.writeReports({
           dir: './coverage',
